@@ -30,10 +30,7 @@ communications test/example program for GNU/Linux(*).
 ----------------------
 ````
 
-==================   
-Notes on Baud Rate
-==================
-
+#Notes on Baud Rate
    This utility may be used to test the 631, 632, 634, 633 and 635 displays.
 
    BAUD rates for the modules are as follows:
@@ -47,16 +44,11 @@ Notes on Baud Rate
    as earlier/later models of a USB LCD may use a different baud rate to those shown
    above.
 
-==================
-Make options
-==================
+#Make options
    If you modify the existing code and wish to do a fresh make, run
    'make clean' and then 'make' again. 
 
-==================
-Source Code
-==================
-
+#Source Code
 Source code for the example utilities are also contained in this archive.
 See the extracted sub-directories for the C source code.
 
@@ -65,10 +57,14 @@ other operating systems.
 If you would like to have us (Crystalfontz) help you make these work under a
 a different OS, please email us.
 
-==================
+#Contact Info
+````
     Crystalfontz America, Incorporated
     12412 East Saltese Ave
     Spokane Valley, WA 99216-0357
-    sales@crystalfontz.com http://www.crystalfontz.com
-    voice (509) 892-1200 fax (509) 892-1203 US toll-free (888) 206-9720
-==================
+    http://www.crystalfontz.com
+    sales@crystalfontz.com
+    voice (509) 892-1200 
+    US toll-free (888) 206-9720
+    fax (509) 892-1203 
+````
