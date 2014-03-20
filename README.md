@@ -1,36 +1,34 @@
-cfa_linux_examples
-==================
+#cfa_linux_examples
+
 Crystalfontz CFA-631, CFA-632 & CFA-634, CFA-633 & CFA-635 packet based
 communications test/example program for GNU/Linux(*).
 
-==================
-Basic Installation
-==================
+#Basic Installation
 
    These are generic installation instructions:
    (Note that gcc v3.0 or later, make and their supporting libraries
     are required for this utility to work.)
 
-     1. Extract the files contained within the cfa_linux_examples.tar.gz
-        archive to the desired location.
-        To extract the files use the command:
-	"tar -xzvf cfa_linux_examples.tar.gz"
+* Extract the files contained within the cfa_linux_examples.tar.gz archive to the desired location.
+* To extract the files use the command: "tar -xzvf cfa_linux_examples.tar.gz"
+* 'cd' into the created folder and use 'make' to compile and create the example binaries.
+* The example utilities run with the command line options of:
 
-     2. 'cd' into the created folder and use 'make' to compile and
-        create the example binaries.
-     
-     3. The example utilities run with the command line options of:
-        ./example-XXX PORT BAUD
-        PORT is something like "/dev/ttyS0" or "/dev/usb/ttyUSB0"
-        BAUD is 19200 or 115200
-        To clear the display, enter "clear" as an optional third parameter
-    
-    The screen output should show something similar to the following:
+````
+~$ ./example-XXX PORT BAUD
+~$ PORT is something like "/dev/ttyS0" or "/dev/usb/ttyUSB0"
+~$ BAUD is 19200 or 115200
+~$ To clear the display, enter "clear" as an optional third parameter
+````
 
-                ----------------------
-                -  >This is line 1<  -
-                -  >This is line 2<  -
-                ----------------------
+* The screen output should show something similar to the following:
+
+````
+----------------------
+-  >This is line 1<  -
+-  >This is line 2<  -
+----------------------
+````
 
 ==================   
 Notes on Baud Rate
@@ -52,7 +50,6 @@ Notes on Baud Rate
 ==================
 Make options
 ==================
-
    If you modify the existing code and wish to do a fresh make, run
    'make clean' and then 'make' again. 
 
@@ -60,18 +57,18 @@ Make options
 Source Code
 ==================
 
-    Source code for the example utilities are also contained in this archive.
-    See the extracted sub-directories for the C source code.
+Source code for the example utilities are also contained in this archive.
+See the extracted sub-directories for the C source code.
 
-    (*) This source code (with a few minor modifications) should also work under
-    other operating systems.
-    If you would like to have us (Crystalfontz) help you make these work under a
-    a different OS, please email us.
+(*) This source code (with a few minor modifications) should also work under
+other operating systems.
+If you would like to have us (Crystalfontz) help you make these work under a
+a different OS, please email us.
 
 ==================
-Crystalfontz America, Incorporated
-12412 East Saltese Ave
-Spokane Valley, WA 99216-0357
-sales@crystalfontz.com http://www.crystalfontz.com
-voice (509) 892-1200 fax (509) 892-1203 US toll-free (888) 206-9720
+    Crystalfontz America, Incorporated
+    12412 East Saltese Ave
+    Spokane Valley, WA 99216-0357
+    sales@crystalfontz.com http://www.crystalfontz.com
+    voice (509) 892-1200 fax (509) 892-1203 US toll-free (888) 206-9720
 ==================
