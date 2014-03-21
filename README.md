@@ -1,15 +1,22 @@
 #cfa_linux_examples
 
-Crystalfontz CFA-631, CFA-632, CFA-633, CFA-634, & CFA-635 packet based
-communications test/example program for GNU/Linux(*).
+Linux-compatible(*) command-line example programs with C source code. Supports Crystalfontz Intelligent LCD Modules using USB and serial interface including CFA533, CFA631, CFA632, CFA633, CFA634, CFA635.
+
+CFA735 and CFA835 can be demonstrated using the CFA635 example.
+
 
 #Basic Installation
 
-   These are generic installation instructions: (Note that gcc v3.0 or later, make and their supporting libraries are required for this utility to work.)
+These are generic installation instructions: (Note that gcc v3.0 or later, make and their supporting libraries are required for this utility to work.)
 
+#Extracting the bundle
 * Extract the files contained within the cfa_linux_examples.tar.gz archive to the desired location.
 * To extract the files use the command: "tar -xzvf cfa_linux_examples.tar.gz"
+
+#Compiling from source
 * 'cd' into the created folder and use 'make' to compile and create the example binaries.
+
+#Executing the programs
 * The example utilities run with the command line options of:
 
 ````
