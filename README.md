@@ -1,13 +1,11 @@
 #cfa_linux_examples
 
-Crystalfontz CFA-631, CFA-632 & CFA-634, CFA-633 & CFA-635 packet based
+Crystalfontz CFA-631, CFA-632, CFA-633, CFA-634, & CFA-635 packet based
 communications test/example program for GNU/Linux(*).
 
 #Basic Installation
 
-   These are generic installation instructions:
-   (Note that gcc v3.0 or later, make and their supporting libraries
-    are required for this utility to work.)
+   These are generic installation instructions: (Note that gcc v3.0 or later, make and their supporting libraries are required for this utility to work.)
 
 * Extract the files contained within the cfa_linux_examples.tar.gz archive to the desired location.
 * To extract the files use the command: "tar -xzvf cfa_linux_examples.tar.gz"
@@ -16,9 +14,9 @@ communications test/example program for GNU/Linux(*).
 
 ````
 ~$ ./example-XXX PORT BAUD
-~$ PORT is something like "/dev/ttyS0" or "/dev/usb/ttyUSB0"
-~$ BAUD is 19200 or 115200
-~$ To clear the display, enter "clear" as an optional third parameter
+   PORT is something like "/dev/ttyS0" or "/dev/usb/ttyUSB0"
+   BAUD is 19200 or 115200
+   To clear the display, enter "clear" as an optional third parameter
 ````
 
 * The screen output should show something similar to the following:
@@ -31,7 +29,7 @@ communications test/example program for GNU/Linux(*).
 ````
 
 #Notes on Baud Rate
-   This utility may be used to test the 631, 632, 634, 633 and 635 displays.
+   This utility may be used to test the 631, 632, 633, 634, and 635 displays.
 
    BAUD rates for the modules are as follows:
       631 USB: 115200
@@ -52,10 +50,8 @@ communications test/example program for GNU/Linux(*).
 Source code for the example utilities are also contained in this archive.
 See the extracted sub-directories for the C source code.
 
-(*) This source code (with a few minor modifications) should also work under
-other operating systems.
-If you would like to have us (Crystalfontz) help you make these work under a
-a different OS, please email us.
+(*) This source code (with a few minor modifications) should also work under other operating systems.
+If you would like to have us (Crystalfontz) help you make these work under a different OS, please email us.
 
 #Contact Info
 ````
