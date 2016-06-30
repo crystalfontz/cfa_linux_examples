@@ -17,7 +17,7 @@ These are generic installation instructions: (Note that gcc v3.0 or later, make 
 * 'cd' into the created folder and use 'make' to compile and create the example binaries.
 
 #Executing the programs
-* The example utilities run with the command line options of:
+* The example utilities MUST BE run as root with the following command line options:
 
 ````
 ~$ ./example-XXX PORT BAUD
