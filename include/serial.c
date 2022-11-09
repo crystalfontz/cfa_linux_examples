@@ -74,8 +74,8 @@ int Serial_Init(char *devname, int baud_rate)
                   |OFDEL|NLDLY|CRDLY|TABDLY|BSDLY|VTDLY|FFDLY);
 
   //control modes
-  term.c_cflag &= ~(CSIZE|PARENB|PARODD|HUPCL|CRTSCTS);
-  term.c_cflag |= CREAD|CS8|CSTOPB|CLOCAL;
+  term.c_cflag &= ~(CSIZE|PARENB|PARODD|HUPCL|CRTSCTS|CSTOPB);
+  term.c_cflag |= CREAD|CS8|CLOCAL;
 
   //local modes
   term.c_lflag &= ~(ISIG|ICANON|IEXTEN|ECHO);
