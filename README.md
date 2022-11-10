@@ -1,22 +1,22 @@
-#cfa_linux_examples
+# cfa_linux_examples
 
 Linux-compatible(*) command-line example programs with C source code. Supports Crystalfontz Intelligent LCD Modules using USB and serial interface including CFA533, CFA631, CFA632, CFA633, CFA634, CFA635.
 
 CFA735 and CFA835 can be demonstrated using the CFA635 example.
 
 
-#Basic Installation
+## Basic Installation
 
 These are generic installation instructions: (Note that gcc v3.0 or later, make and their supporting libraries are required for this utility to work.)
 
-#Extracting the bundle
+### Extracting the bundle
 * Extract the files contained within the cfa_linux_examples.tar.gz archive to the desired location.
 * To extract the files use the command: "tar -xzvf cfa_linux_examples.tar.gz"
 
-#Compiling from source
+### Compiling from source
 * 'cd' into the created folder and use 'make' to compile and create the example binaries.
 
-#Executing the programs
+### Executing the programs
 * The example utilities MUST BE run as root with the following command line options:
 
 ````
@@ -35,7 +35,7 @@ These are generic installation instructions: (Note that gcc v3.0 or later, make 
 ----------------------
 ````
 
-#Notes on Baud Rate
+### Notes on Baud Rate
    This utility may be used to test the 631, 632, 633, 634, and 635 displays.
 
    BAUD rates for the modules are as follows:
@@ -49,18 +49,18 @@ These are generic installation instructions: (Note that gcc v3.0 or later, make 
    as earlier/later models of a USB LCD may use a different baud rate to those shown
    above.
 
-#Make options
+### Make options
    If you modify the existing code and wish to do a fresh make, run
    'make clean' and then 'make' again. 
 
-#Source Code
+### Source Code
 Source code for the example utilities are also contained in this archive.
 See the extracted sub-directories for the C source code.
 
 (*) This source code (with a few minor modifications) should also work under other operating systems.
 If you would like to have us (Crystalfontz) help you make these work under a different OS, please email us.
 
-#Contact Info
+## Contact Info
 ````
     Crystalfontz America, Incorporated
     12412 East Saltese Ave
